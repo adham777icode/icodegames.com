@@ -1,0 +1,791 @@
+body {
+    height: 1500px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/*Nav Start*/
+nav {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1001;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    z-index: 100;
+    width: 100%;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+ul li a {
+    color: black;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding-bottom: 8px;
+    border-bottom: white 1px solid;
+    transition: border-color .3s, opacity .3s;
+}
+
+ul li a:hover {
+    border-color: black;
+    opacity: .5;
+}
+
+.hom {
+    padding-bottom: 8px;
+    border-bottom: black 1px solid;
+}
+
+ul li ul.dropdown {
+    display: none;
+    position: absolute;
+    top: 45px;
+    background-color: #d6d6d6;
+    border-radius: 5px;
+    width: 220px;
+    height: 50px;
+    translate: -90px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding-right: 25px;
+}
+
+.text {
+    width: 320px;
+    position: absolute;
+    bottom: -8px;
+    left: 13px;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+.links li a:hover {
+    opacity: .5;
+}
+
+.logo {
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+    cursor: default;
+    position: absolute;
+    left: 50px;
+    top: 15px;
+}
+
+hr {
+    width: 95%;
+    padding: 0;
+}
+
+/*Nav End*/
+
+/*--------------------------------------------------------------------------------------------*/
+
+/*Container Start*/
+
+/*News Start*/
+.container {
+    width: 100%;
+    height: 700px;
+    text-align: center;
+}
+
+.news {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 1150px;
+}
+
+.news-cont {
+    position: absolute;
+    top: 200px;
+    width: 60%;
+    height: 450px;
+    background-color: #d8d6d6;
+    border-radius: 30px;
+    cursor: default;
+    right: 500px;
+    box-shadow: black 2px 2px 15px;
+    overflow: hidden;
+}
+
+.news-tit {
+    position: relative;
+    top: 20px;
+    font-size: 55px;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    cursor: default;
+}
+
+
+.news-cover {
+    width: 100%;
+    height: 450px;
+    border-radius: 30px;
+    transition: width .3s, height .3s, translate .3s;
+}
+
+.news-cover:hover {
+    width: 105%;
+    height: 460px;
+    translate: -5px 0px;
+}
+
+
+.cont-tit {
+    position: absolute;
+    bottom: 170px;
+    left: 50px;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    cursor: default;
+}
+
+.cont-desc {
+    position: absolute;
+    bottom: 130px;
+    left: 10px;
+    width: 550px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    cursor: default;
+}
+
+.cont-desc2 {
+    position: absolute;
+    bottom: 105px;
+    right: 345px;
+    width: 550px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    cursor: default;
+}
+
+.news-try-btn {
+    position: absolute;
+    bottom: 45px;
+    left: 175px;
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    border: black 1px solid;
+    transition: background-color .3s;
+}
+
+.news-try-btn:hover {
+    background-color: black;
+}
+
+.news-try-btn-text {
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    padding-right: 35px;
+    padding-left: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    transition: color .3s;
+    color: black;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.news-try-btn-text:hover {
+    color: white;
+}
+
+/*News End*/
+
+/*----------------------------------------------------------------------*/
+
+/*Courses Start*/
+.cs-courses {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 30.5%;
+    left: 65%;
+    border-radius: 30px;
+    width: 30%;
+    height: 450px;
+    background-color: #d8d6d6;
+    box-shadow: black 2px 2px 15px;
+    transition: height .3s, width .3s, box-shaodw .3s;
+}
+
+.cs-courses:hover {
+    height: 455px;
+    width: 31%;
+    box-shadow: black 2px 2px 30px;
+}
+
+.cs-text {
+    position: absolute;
+    top: 20px;
+    color: black;
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+    cursor: default;
+}
+
+.cs-tit {
+    position: absolute;
+    top: 50%;
+    right: 55%;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    cursor: default;
+}
+
+.cs-desc {
+    position: absolute;
+    top: 65%;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    cursor: default;
+}
+
+.cs-btn {
+    position: absolute;
+    bottom: 30px;
+    left: 70px;
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    border: black 1px solid;
+    transition: background-color .3s;
+}
+
+.cs-btn:hover {
+    background-color: black;
+}
+
+.cs-btn-txt {
+    text-decoration: none;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    transition: color .3s;
+}
+
+.cs-btn-txt:hover {
+    color: white;
+}
+
+.cs-btn-txt:hover {
+    color: white;
+}
+
+.txt1 {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+
+.txt2 {
+    position: absolute;
+    right: 240px;
+    top: 50px;
+}
+
+/*Courses End*/
+
+/*----------------------------------------------------------------------*/
+
+/*Web Maker Start*/
+
+.web-makr {
+    position: absolute;
+    top: 102%;
+    right: 5%;
+    width: 92%;
+    height: 550px;
+    background-color: #d8d6d6;
+    border-radius: 30px;
+    box-shadow: black 2px 2px 15px;
+    transition: height .3s, width .3s, box-shadow .3s;
+}
+
+.web-makr:hover {
+    height: 555px;
+    width: 93%;
+    box-shadow: black 2px 2px 30px;
+}
+
+
+.cs-text2 {
+    position: absolute;
+    left: 40%;
+    top: 20px;
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+    cursor: default;
+}
+
+.web-makr-tit {
+    position: absolute;
+    left: 5%;
+    top: 55%;
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+    cursor: default;
+}
+
+.web-makr-desc {
+    position: absolute;
+    top: 65%;
+    left: 5%;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    cursor: default;
+}
+
+.wm-btn {
+    position: absolute;
+    top: 80%;
+    right: 85%;
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    border: black 1px solid;
+    transition: background-color .3s;
+}
+
+.wm-btn:hover {
+    background-color: black;
+}
+
+.wm-btn-txt {
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    transition: color .3s;
+}
+
+.wm-btn-txt:hover {
+    color: white;
+}
+
+/*Web Maker End*/
+
+/*----------------------------------------------------------------------------------------------------*/
+
+/*Games Start*/
+.gms-crds {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 1150px;
+}
+
+.gms-tit {
+    position: relative;
+    top: 500px;
+    font-size: 55px;
+    font-family: 'Raleway', sans-serif;
+    cursor: default;
+}
+
+.crds-cont {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 1400px;
+    width: 98%;
+    height: 540px;
+    border-radius: 30px;
+}
+
+
+/*The Defeater Start*/
+
+.thedef-crd {
+    width: calc(80% / 3);
+    height: 87%;
+    background-color: #eee;
+    border-radius: 30px;
+    transition: width .3s, height .3s, box-shadow .3s;
+    text-align: center;
+    box-shadow: black 2px 2px 25px;
+}
+
+.thedef-crd:hover {
+    width: calc(82% / 3);
+    height: 88%;
+    box-shadow: black 2px 2px 35px;
+}
+
+.thedef-crd-cov {
+    width: 100%;
+    height: 65%;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.thedef-crd-tit {
+    position: relative;
+    top: 3%;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    cursor: default;
+}
+
+.thedef-crd-btn {
+    position: relative;
+    top: 7%;
+    width: 100px;
+    height: 40px;
+    border: black 1px solid;
+    transition: background-color .3s;
+    background-color: transparent;
+}
+
+.thedef-crd-btn:hover {
+    background-color: black;
+}
+
+.thedef-crd-btn-txt {
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 35px;
+    padding-left: 30px;
+    text-decoration: none;
+    color: black;
+    transition: color .3s;
+}
+
+.thedef-crd-btn-txt:hover {
+    color: white;
+}
+
+/*The Defeater End*/
+
+/*-----------------------------------------------------------------------------*/
+
+/*Towerense Start*/
+
+.twrns-crd {
+    width: calc(80% / 3);
+    height: 87%;
+    background-color: #eee;
+    border-radius: 30px;
+    transition: width .3s, height .3s, box-shadow .3s;
+    text-align: center;
+    box-shadow: black 2px 2px 25px;
+}
+
+.twrns-crd:hover {
+    width: calc(82% / 3);
+    height: 88%;
+    box-shadow: black 2px 2px 35px;
+}
+
+.twrns-crd-cov {
+    width: 100%;
+    height: 65%;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.twrns-crd-tit {
+    position: relative;
+    top: 3%;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    cursor: default;
+}
+
+.twrns-crd-btn {
+    position: relative;
+    top: 7%;
+    width: 100px;
+    height: 40px;
+    border: black 1px solid;
+    transition: background-color .3s;
+    background-color: transparent;
+}
+
+.twrns-crd-btn:hover {
+    background-color: black;
+}
+
+.twrns-crd-btn-txt {
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 35px;
+    padding-left: 30px;
+    text-decoration: none;
+    color: black;
+    transition: color .3s;
+}
+
+.twrns-crd-btn-txt:hover {
+    color: white;
+}
+
+/*Towerense End*/
+
+
+/*---------------------------------------------------------------------------------------*/
+
+
+/*WAY Start*/
+
+.way-crd {
+    width: calc(80% / 3);
+    height: 87%;
+    background-color: #eee;
+    border-radius: 30px;
+    transition: width .3s, height .3s, box-shadow .3s;
+    text-align: center;
+    box-shadow: black 2px 2px 25px;
+}
+
+.way-crd:hover {
+    width: calc(82% / 3);
+    height: 88%;
+    box-shadow: black 2px 2px 35px;
+}
+
+.way-crd-cov {
+    width: 100%;
+    height: 65%;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.way-crd-tit {
+    position: relative;
+    top: 3%;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    cursor: default;
+}
+
+.way-crd-btn {
+    position: relative;
+    top: 7%;
+    width: 100px;
+    height: 40px;
+    border: black 1px solid;
+    transition: background-color .3s;
+    background-color: transparent;
+}
+
+.way-crd-btn:hover {
+    background-color: black;
+}
+
+.way-crd-btn-txt {
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 35px;
+    padding-left: 30px;
+    text-decoration: none;
+    color: black;
+    transition: color .3s;
+}
+
+.way-crd-btn-txt:hover {
+    color: white;
+}
+
+/*WAY End*/
+
+
+/*Games End*/
+
+
+
+.lst-sec {
+    position: absolute;
+    top: 310%;
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    height: 600px;
+}
+
+.sec-tit {
+    position: relative;
+    left: 45%;
+    top: 3%;
+    width: 100px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    cursor: default;
+}
+
+.list-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    right: 4.25%;
+    top: 15%;
+    width: 100%;
+    height: 65%;
+}
+
+
+.l1 {
+    position: absolute;
+    bottom: 75%;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.gms-list {
+    list-style-type: none;
+}
+
+.gms-list li {
+    padding-bottom: 15px;
+}
+
+.gms-list li a {
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.gms-list li a:hover {
+    text-decoration: underline;
+}
+
+/*Games End*/
+
+/*-------------------------------------------------------*/
+
+
+.l2 {
+    position: absolute;
+    bottom: 75%;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.cate-list {
+    list-style-type: none;
+}
+
+.cate-list li {
+    padding-bottom: 15px;
+}
+
+.cate-list li a {
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.cate-list li a:hover {
+    text-decoration: underline;
+}
+
+/*Categories End*/
+
+/*-------------------------------------------------------*/
+
+
+
+.l3 {
+    position: absolute;
+    bottom: 75%;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.cont-list {
+    list-style-type: none;
+}
+
+.cont-list li {
+    padding-bottom: 15px;
+}
+
+.cont-list li a {
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.cont-list li a:hover {
+    text-decoration: underline;
+}
+
+/*Contact End*/
+
+/*-------------------------------------------------------*/
+
+
+footer {
+    position: relative;
+    top: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: #d8d6d6;
+    cursor: default;
+}
+
+.foot {
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+::selection {
+    color: black;
+    background-color: #938b8b;
+}
+
+/*----------------------------------------------------------------------------------------------------*/
