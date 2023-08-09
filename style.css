@@ -1,0 +1,1632 @@
+/*Responsive Design Start*/
+.way-new-res {
+    display: none;
+    position: absolute;
+    top: 15%;
+    width: 95%;
+    height: 15%;
+    background-color: #d8d6d6;
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: black 2px 2px 15px;
+}
+
+.way-new-cov-res {
+    width: 100%;
+    height: 100%;
+}
+
+.way-new-tit-res {
+    position: absolute;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    left: 2%;
+    top: 50%;
+}
+
+.way-new-desc-res {
+    position: absolute;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    left: 2%;
+    top: 65%;
+}
+
+.way-new-btn-res {
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    background-color: transparent;
+    border: 1px black solid;
+    left: 35%;
+    top: 82%;
+    transition: background-color .3s;
+    z-index: 10;
+}
+
+.way-new-btn-res a {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    color: black;
+    padding-right: 15px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: color .3s;
+}
+
+.way-new-btn-res:hover {
+    background-color: black;
+}
+
+.way-new-btn-res a:hover {
+    color: white;
+}
+
+.cors-new-res {
+    display: none;
+    position: absolute;
+    top: 32%;
+    width: 95%;
+    height: 15%;
+    background-color: #d8d6d6;
+    border-radius: 50px;
+    box-shadow: black 2px 2px 15px;
+}
+
+.cors-cs-tit-res {
+    position: absolute;
+    top: 5%;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+}
+
+.cors-desc-res {
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    font-size: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.cors-tit-res {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+}
+
+.cors-new-btn-res {
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    background-color: transparent;
+    border: 1px black solid;
+    left: 25%;
+    top: 85%;
+    transition: background-color .3s;
+}
+
+.cors-new-btn-res a {
+    position: relative;
+    bottom: 3px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 6px;
+    color: black;
+    transition: color .3s;
+}
+
+.cors-new-btn-res:hover {
+    background-color: black;
+}
+
+.cors-new-btn-res a:hover {
+    color: white;
+}
+
+.ool-new-res {
+    display: none;
+    position: absolute;
+    top: 49%;
+    width: 95%;
+    height: 15%;
+    background-color: #d8d6d6;
+    border-radius: 50px;
+    box-shadow: black 2px 2px 15px;
+}
+
+.ool-new-tit-res {
+    position: absolute;
+    left: 5%;
+    top: 45%;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.ool-new-desc-res {
+    position: absolute;
+    left: 5%;
+    top: 60%;
+    font-size: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.ool-new-btn-res {
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    background-color: transparent;
+    border: 1px black solid;
+    left: 25%;
+    top: 85%;
+    transition: background-color .3s;
+}
+
+.ool-new-btn-res a {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    transition: color .3s;
+}
+
+.ool-new-btn-res:hover {
+    background-color: black;
+}
+
+.ool-new-btn-res a:hover {
+    color: white;
+}
+
+.wmt-new-res {
+    display: none;
+    position: absolute;
+    top: 66%;
+    width: 95%;
+    height: 15%;
+    border-radius: 50px;
+    overflow: hidden;
+    background-color: #d8d6d6;
+    box-shadow: black 2px 2px 15px;
+}
+
+.wmt-new-cov-res {
+    width: 100%;
+    height: 100%;
+}
+
+.wmt-new-tit-res {
+    position: absolute;
+    left: 5%;
+    top: 45%;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.wmt-new-desc-res {
+    position: absolute;
+    left: 5%;
+    top: 60%;
+    font-size: 10px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.wmt-new-btn-res {
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    background-color: black;
+    border: 1px white solid;
+    left: 25%;
+    top: 85%;
+    transition: background-color .3s;
+}
+
+.wmt-new-btn-res a {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    transition: color .3s;
+}
+
+.wmt-new-btn-res:hover {
+    background-color: white;
+}
+
+.wmt-new-btn-res a:hover {
+    color: black;
+}
+
+.gms-cont-res {
+    z-index: -1;
+    display: none;
+    position: relative;
+    bottom: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+}
+
+.def-crd-res {
+    display: none;
+    width: 45%;
+    height: 30%;
+    background-color: #eee;
+    border-radius: 5px;
+    box-shadow: black 2px 2px 15px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.def-crd-cov-res {
+    width: 100%;
+    height: 50%;
+}
+
+.def-crd-tit-res {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 3%;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+}
+
+.def-btn-cont-res {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.def-crd-btn-res {
+    position: absolute;
+    top: 19%;
+    width: 50px;
+    height: 20px;
+    background-color: transparent;
+    border: 1px black solid;
+    transition: background-color .3s;
+}
+
+.def-crd-btn-res a {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    transition: color .3s;
+}
+
+.def-crd-btn-res:hover {
+    background-color: black;
+}
+
+.def-crd-btn-res a:hover {
+    color: white;
+}
+
+.twns-crd-res {
+    display: none;
+    width: 45%;
+    height: 30%;
+    background-color: #eee;
+    border-radius: 5px;
+    box-shadow: black 2px 2px 15px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.twns-crd-cov-res {
+    width: 100%;
+    height: 50%;
+}
+
+.twns-crd-tit-res {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 3%;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+}
+
+.twns-btn-cont-res {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.twns-crd-btn-res {
+    position: absolute;
+    top: 45%;
+    width: 50px;
+    height: 20px;
+    background-color: transparent;
+    border: 1px black solid;
+    transition: background-color .3s;
+}
+
+.twns-crd-btn-res a {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    transition: color .3s;
+}
+
+.twns-crd-btn-res:hover {
+    background-color: black;
+}
+
+.twns-crd-btn-res a:hover {
+    color: white;
+}
+
+.way-crd-res {
+    display: none;
+    width: 45%;
+    height: 30%;
+    background-color: #eee;
+    border-radius: 5px;
+    box-shadow: black 2px 2px 15px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.way-crd-cov-res {
+    width: 100%;
+    height: 50%;
+}
+
+.way-crd-tit-res {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 3%;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+}
+
+.way-btn-cont-res {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.way-crd-btn-res {
+    position: absolute;
+    top: 70%;
+    width: 50px;
+    height: 20px;
+    background-color: transparent;
+    border: 1px black solid;
+    transition: background-color .3s;
+}
+
+.way-crd-btn-res a {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    transition: color .3s;
+}
+
+.way-crd-btn-res:hover {
+    background-color: black;
+}
+
+.way-crd-btn-res a:hover {
+    color: white;
+}
+
+.ool-crd-res {
+    display: none;
+    width: 45%;
+    height: 30%;
+    background-color: #eee;
+    border-radius: 5px;
+    box-shadow: black 2px 2px 15px;
+    overflow: hidden;
+}
+
+.ool-crd-tit-res {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 3%;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+}
+
+.ool-crd-cov-res {
+    width: 100%;
+    height: 50%;
+}
+
+.ool-btn-cont-res {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.ool-crd-btn-res {
+    position: absolute;
+    top: 95%;
+    width: 50px;
+    height: 20px;
+    background-color: transparent;
+    border: 1px black solid;
+    transition: background-color .3s;
+}
+
+.ool-crd-btn-res a {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    transition: color .3s;
+}
+
+.ool-crd-btn-res:hover {
+    background-color: black;
+}
+
+.ool-crd-btn-res a:hover {
+    color: white;
+}
+
+/*Responsive Design End*/
+
+* {
+    clear: both;
+}
+
+::selection {
+    color: black;
+    background-color: #938b8b;
+}
+
+body {
+    height: 1500px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/*Nav Start*/
+nav {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1001;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    z-index: 100;
+    width: 100%;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+ul li a {
+    color: black;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding-bottom: 8px;
+    border-bottom: white 1px solid;
+    transition: border-color .3s, opacity .3s;
+}
+
+ul li a:hover {
+    border-color: black;
+    opacity: .5;
+}
+
+.hom {
+    padding-bottom: 8px;
+    border-bottom: black 1px solid;
+}
+
+ul li ul.dropdown {
+    display: none;
+    position: absolute;
+    top: 45px;
+    background-color: #d6d6d6;
+    border-radius: 5px;
+    width: 220px;
+    height: 50px;
+    translate: -90px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding-right: 25px;
+}
+
+.text {
+    width: 320px;
+    position: absolute;
+    bottom: -8px;
+    left: 13px;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+.links li a:hover {
+    opacity: .5;
+}
+
+.logo {
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+    cursor: default;
+    position: absolute;
+    left: 50px;
+    top: 15px;
+}
+
+hr {
+    width: 95%;
+    padding: 0;
+}
+
+/*Nav End*/
+
+/*--------------------------------------------------------------------------------------------*/
+
+/*News Start*/
+.container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: 3%;
+    bottom: 11%;
+}
+
+.news-tit {
+    position: absolute;
+    top: 14%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 55px;
+    width: 100%;
+}
+
+/*Way New Start*/
+
+.way-new {
+    display: flex;
+    position: absolute;
+    width: 60%;
+    height: 30%;
+    background-color: #d8d6d6;
+    border-radius: 50px;
+    box-shadow: black 2px 2px 15px;
+    top: 15%;
+    overflow: hidden;
+    transition: box-shadow .3s;
+    cursor: default;
+}
+
+.way-new-cov {
+    width: 100%;
+    height: 100%;
+    transition: width .3s, height .3s;
+}
+
+.way-new-cov:hover {
+    width: 105%;
+    height: 105%;
+}
+
+.way-new:hover {
+    box-shadow: black 2px 2px 30px;
+}
+
+.way-new-desc {
+    position: absolute;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    left: 2%;
+    top: 65%;
+}
+
+.way-new-tit {
+    position: absolute;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    left: 2%;
+    top: 50%;
+}
+
+.way-new-btn {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px black solid;
+    left: 25%;
+    top: 82%;
+    transition: background-color .3s;
+}
+
+.way-new-btn a {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: black;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 35px;
+    padding-left: 30px;
+    transition: color .3s;
+}
+
+.way-new-btn:hover a {
+    color: white;
+}
+
+.way-new-btn:hover {
+    background-color: black;
+}
+
+/*Way New End*/
+
+/*----------------------------------------------------------*/
+
+/*Courses New Start*/
+
+.cors-new {
+    display: flex;
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    background-color: #d8d6d6;
+    border-radius: 50px;
+    box-shadow: black 2px 2px 15px;
+    top: 15%;
+    left: 62%;
+    cursor: default;
+    transition: width .3s, height .3s, box-shadow .3s;
+}
+
+.cors-new:hover {
+    width: 31%;
+    height: 31%;
+    box-shadow: black 2px 2px 30px;
+}
+
+/*Courses New Start*/
+
+/*----------------------------------------------------------*/
+
+/*Out Of Load New Start*/
+
+.ool-new {
+    display: flex;
+    position: absolute;
+    width: 45%;
+    height: 30%;
+    background-color: #d6d6d6;
+    border-radius: 50px;
+    box-shadow: black 2px 2px 15px;
+    top: 47%;
+    cursor: default;
+    transition: width .3s, height .3s, box-shadow .3s;
+}
+
+.ool-new:hover {
+    width: 46%;
+    height: 31%;
+    box-shadow: black 2px 2px 30px;
+}
+
+.ool-new-tit {
+    position: absolute;
+    left: 5%;
+    top: 45%;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.ool-new-desc {
+    position: absolute;
+    left: 5%;
+    top: 60%;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.ool-new-btn {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px black solid;
+    left: 25%;
+    top: 85%;
+    transition: background-color .3s;
+}
+
+.ool-new-btn a {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: black;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 35px;
+    padding-left: 30px;
+    transition: color .3s;
+}
+
+.ool-new-btn:hover {
+    background-color: black;
+}
+
+.ool-new-btn a:hover {
+    color: white;
+}
+
+/*Out Of Load New Start*/
+
+/*----------------------------------------------------------*/
+
+/*Web Maker Tool New Start*/
+
+.wmt-new {
+    display: flex;
+    position: absolute;
+    width: 45%;
+    height: 30%;
+    background-color: #d8d6d6;
+    border-radius: 50px;
+    box-shadow: black 2px 2px 15px;
+    left: 47%;
+    top: 47%;
+    overflow: hidden;
+    cursor: default;
+    transition: box-shadow .3s;
+}
+
+.wmt-new:Hover {
+    box-shadow: black 2px 2px 30px;
+}
+
+.wmt-new-cov {
+    width: 100%;
+    height: 100%;
+    -webkit-transition: width .3s, height .3s;
+    -moz-transition: width .3s, height .3s;
+    -o-transition: width .3s, height .3s;
+    transition: width .3s, height .3s;
+}
+
+.wmt-new-cov:hover {
+    width: 105%;
+    height: 105%;
+}
+
+.wmt-new-tit {
+    position: absolute;
+    left: 5%;
+    top: 45%;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.wmt-new-desc {
+    position: absolute;
+    left: 5%;
+    top: 60%;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.wmt-new-btn {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    border: 1px white solid;
+    left: 25%;
+    top: 85%;
+    transition: background-color .3s;
+}
+
+.wmt-new-btn a {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 35px;
+    padding-left: 30px;
+    transition: color .3s;
+}
+
+.wmt-new-btn:hover {
+    background-color: white;
+}
+
+.wmt-new-btn a:hover {
+    color: black;
+}
+
+/*Web Maker Tool New End*/
+
+/*----------------------------------------------------------*/
+
+.gms-tit {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 80%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 55px;
+    width: 100%;
+}
+
+.gms-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    width: 95%;
+    height: 40%;
+    top: 90%;
+}
+
+/*The Defeater Card Start*/
+
+.def-crd {
+    width: 24%;
+    height: 75%;
+    background-color: #eee;
+    border-radius: 50px;
+    box-shadow: black 2px 2px 15px;
+    cursor: default;
+    overflow: hidden;
+    transition: width .3s, height .3s, box-shadow .3s;
+}
+
+.def-crd:hover {
+    width: 25%;
+    height: 76%;
+    box-shadow: black 2px 2px 30px;
+}
+
+.def-crd-tit {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 3%;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+}
+
+.def-crd-cov {
+    width: 100%;
+    height: 60%;
+}
+
+.def-crd-btn {
+    position: absolute;
+    top: 70%;
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px black solid;
+    transition: background-color .3s;
+}
+
+.def-crd-btn a {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: black;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 35px;
+    padding-left: 30px;
+    transition: color .3s;
+}
+
+.def-btn-cont {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.def-crd-btn:hover {
+    background-color: black;
+}
+
+.def-crd-btn a:hover {
+    color: white;
+}
+
+/*The Defeater Card End*/
+
+/*---------------------------------------------------*/
+
+/*Towerense Card Start*/
+
+.twrns-crd {
+    width: 24%;
+    height: 75%;
+    background-color: #eee;
+    border-radius: 50px;
+    box-shadow: black 2px 2px 15px;
+    overflow: hidden;
+    cursor: default;
+    transition: width .3s, height .3s, box-shadow .3s;
+}
+
+.twrns-crd:hover {
+    width: 25%;
+    height: 76%;
+    box-shadow: black 2px 2px 30px;
+}
+
+.twns-crd-cov {
+    width: 100%;
+    height: 60%;
+}
+
+.twns-crd-tit {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 3%;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+}
+
+.twns-crd-btn {
+    position: absolute;
+    top: 70%;
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px black solid;
+    transition: background-color .3s;
+}
+
+.twns-crd-btn a {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: black;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 35px;
+    padding-left: 30px;
+    transition: color .3s;
+}
+
+.twns-btn-cont {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.twns-crd-btn:hover {
+    background-color: black;
+}
+
+.twns-crd-btn a:hover {
+    color: white;
+}
+
+/*Towerense Card Start*/
+
+/*---------------------------------------------------*/
+
+/*WAY Card Start*/
+
+.way-crd {
+    width: 24%;
+    height: 75%;
+    background-color: #eee;
+    border-radius: 50px;
+    box-shadow: black 2px 2px 15px;
+    cursor: default;
+    overflow: hidden;
+    transition: width .3s, height .3s, box-shadow .3s;
+}
+
+.way-crd:hover {
+    width: 25%;
+    height: 76%;
+    box-shadow: black 2px 2px 30px;
+}
+
+.way-crd-cov {
+    width: 100%;
+    height: 60%;
+}
+
+.way-crd-tit {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 3%;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+}
+
+.way-crd-btn {
+    position: absolute;
+    top: 70%;
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px black solid;
+    transition: background-color .3s;
+}
+
+.way-btn-cont {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.way-crd-btn a {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: black;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 35px;
+    padding-left: 30px;
+    transition: color .3s;
+}
+
+.way-crd-btn:hover {
+    background-color: black;
+}
+
+.way-crd-btn a:hover {
+    color: white;
+}
+
+/*WAY Card Start*/
+
+/*---------------------------------------------------*/
+
+/*Out Of Load Card Start*/
+
+.ool-crd {
+    width: 24%;
+    height: 75%;
+    background-color: #eee;
+    border-radius: 50px;
+    box-shadow: black 2px 2px 15px;
+    overflow: hidden;
+    cursor: default;
+    transition: width .3s, height .3s, box-shadow .3s;
+}
+
+.ool-crd:hover {
+    width: 25%;
+    height: 76%;
+    box-shadow: black 2px 2px 30px;
+}
+
+.ool-crd-cov {
+    width: 100%;
+    height: 60%;
+    transform: scaleX(1.2);
+}
+
+.ool-crd-tit {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 3%;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    width: 93%;
+}
+
+.ool-crd-btn {
+    position: absolute;
+    top: 70%;
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px black solid;
+    transition: background-color .3s;
+}
+
+.ool-crd-btn a {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: black;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 35px;
+    padding-left: 30px;
+    transition: color .3s;
+}
+
+.ool-crd-btn:hover {
+    background-color: black;
+}
+
+.ool-crd-btn a:hover {
+    color: white;
+}
+
+.ool-btn-cont {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/*Out Of Load Card Start*/
+
+/*---------------------------------------------------*/
+
+.footer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 4%;
+    background-color: #eee;
+    font-family: 'Raleway', sans-serif;
+    top: 30%;
+}
+
+.lst-sec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 35%;
+    top: 30%;
+}
+
+.lst-tit {
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    top: 5%;
+}
+
+.lst-gms-tit {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.lst-gms {
+    list-style-type: none;
+}
+
+.lst-gms li {
+    margin-top: 15px;
+}
+
+.lst-gms a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
+
+.lst-gms a:hover {
+    text-decoration: underline;
+}
+
+/*---------------------------------------------------------------------------------*/
+
+.lst-cat-tit {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.lst-cat {
+    list-style-type: none;
+}
+
+.lst-cat li {
+    margin-top: 15px;
+}
+
+.lst-cat a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
+
+.lst-cat a:hover {
+    text-decoration: underline;
+}
+
+/*---------------------------------------------------------------------------------*/
+
+.lst-cont-tit {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.lst-cont {
+    list-style-type: none;
+}
+
+.lst-cont li {
+    margin-top: 15px;
+}
+
+.lst-cont a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
+
+.lst-cont a:hover {
+    text-decoration: underline;
+}
+
+.cors-cs-tit {
+    position: absolute;
+    top: 5%;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+}
+
+.cors-tit {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+}
+
+.cors-desc {
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.cors-new-btn {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px black solid;
+    left: 25%;
+    top: 85%;
+    transition: background-color .3s;
+}
+
+.cors-new-btn a {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    transition: color .3s;
+}
+
+.cors-new-btn a:hover {
+    color: white;
+}
+
+.cors-new-btn:hover {
+    background-color: black;
+}
+
+@media (min-width: 1600px) and (max-width: 1920px) {
+
+    .way-new,
+    .cors-new {
+        height: 40%;
+    }
+
+    .ool-new,
+    .wmt-new {
+        top: 57%;
+    }
+
+    .def-crd,
+    .twrns-crd,
+    .way-crd,
+    .ool-crd {
+        height: 99%;
+        margin-right: 1%;
+    }
+
+    .gms-tit {
+        top: 83%;
+    }
+
+    .gms-cont {
+        top: 95%;
+    }
+
+    .cors-tit {
+        top: 55%;
+    }
+
+    .cors-desc {
+        top: 70%;
+    }
+
+    .cors-new-btn {
+        top: 87%;
+    }
+
+    .cors-new:hover {
+        height: 41%;
+    }
+
+    .def-crd-btn {
+        top: 80%;
+    }
+
+    .def-crd:hover,
+    .way-crd:hover,
+    .twrns-crd:hover,
+    .ool-crd:hover {
+        height: 100%;
+        width: 24%;
+    }
+}
+
+.res-nav {
+    position: absolute;
+    right: 5%;
+    z-index: 1;
+    font-size: 40px;
+    cursor: default;
+    display: none;
+}
+
+.res-nav:hover .res-list {
+    display: block;
+}
+
+.res-list {
+    position: absolute;
+    right: 0%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    list-style-type: none;
+    background-color: #d8d6d6;
+    border: 1px black solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0;
+    display: none;
+}
+
+.res-list li {
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 5px;
+}
+
+.res-list li a {
+    color: black;
+    text-decoration: none;
+}
+
+@media (min-width:280px) and (max-width:500px) {
+    .links {
+        display: none;
+    }
+
+    .res-nav {
+        display: block;
+    }
+
+    .way-new,
+    .cors-new,
+    .ool-new,
+    .wmt-new,
+    .gms-cont {
+        display: none;
+    }
+
+    .gms-tit {
+        top: 75%;
+    }
+
+    .way-new-res,
+    .cors-new-res,
+    .ool-new-res,
+    .wmt-new-res,
+    .ool-crd-res,
+    .way-crd-res,
+    .def-crd-res,
+    .twns-crd-res,
+    .ool-crd-res {
+        display: block;
+    }
+
+    .gms-cont-res {
+        z-index: 1;
+    }
+}
+
+@media (min-width:300px) and (max-width:500px) {
+    .res-nav {
+        right: 15%;
+    }
+}
+
+@media (min-width:1920px) and (max-width:2800px) {
+    .news-tit {
+        top: 10%;
+    }
+    .way-new,
+    .cors-new,
+    .wmt-new,
+    .ool-new {
+        height: 40%;
+    }
+    .ool-new,
+    .wmt-new {
+        top: 58%;
+    }
+    .ool-new:hover,
+    .cors-new:hover {
+        height: 41%;
+    }
+    .gms-cont {
+        top: 110%;
+        height: 50%;
+    }
+    .gms-tit {
+        top: 100%;
+    }
+    .lst-sec,
+    .footer {
+        top: 70%;
+    }
+}
+
+@media (min-width:2700px) {
+    .news-tit {
+            top: 7%;
+        }
+    
+        .way-new,
+        .cors-new,
+        .wmt-new,
+        .ool-new {
+            height: 50%;
+        }
+    
+        .ool-new,
+        .wmt-new {
+            top: 68%;
+        }
+    
+        .ool-new:hover,
+        .cors-new:hover {
+            height: 51%;
+        }
+    
+        .gms-cont {
+            top: 130%;
+            height: 70%;
+        }
+    
+        .gms-tit {
+            top: 120%;
+        }
+    
+        .lst-sec,
+        .footer {
+            top: 100%;
+        }
+}
+
+/*News End*/
